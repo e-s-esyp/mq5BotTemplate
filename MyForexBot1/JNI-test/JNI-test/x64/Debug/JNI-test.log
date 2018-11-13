@@ -1,0 +1,53 @@
+﻿Build started 29.06.2016 23:22:04.
+     1>Project "Z:\JNI-test\JNI-test\JNI-test.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\JNI-test.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Debug\JNI-test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_75\include" /I"C:\Program Files\Java\jdk1.7.0_75\include\win32" /I"C:\Program Files\Java\jdk1.7.0_75\lib" /I"C:\Program Files\Java\jdk1.7.0_75\jre\bin\server" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\JNI-test.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         G:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_75\include" /I"C:\Program Files\Java\jdk1.7.0_75\include\win32" /I"C:\Program Files\Java\jdk1.7.0_75\lib" /I"C:\Program Files\Java\jdk1.7.0_75\jre\bin\server" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\JNI-test.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /errorReport:prompt AssemblyInfo.cpp "JNI-test.cpp" /clr:nostdlib 
+         AssemblyInfo.cpp
+         JNI-test.cpp
+     1>JNI-test.cpp(153): warning C4244: 'initializing' : conversion from 'jlong' to 'long', possible loss of data
+         Generating Code...
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1513): warning C4793: 'JNIEnv_::CallStaticVoidMethod' : function compiled as native :
+         	varargs not supported under /clr
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1515): warning C4793: 'JNIEnv_::CallStaticVoidMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1517): warning C4793: 'JNIEnv_::CallStaticVoidMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1352): warning C4793: 'JNIEnv_::CallStaticObjectMethod' : function compiled as native :
+         	varargs not supported under /clr
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1355): warning C4793: 'JNIEnv_::CallStaticObjectMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+     1>c:\program files\java\jdk1.7.0_75\include\jni.h(1357): warning C4793: 'JNIEnv_::CallStaticObjectMethod' : function compiled as native :
+         	Found an intrinsic not supported in managed code
+         G:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_75\include" /I"C:\Program Files\Java\jdk1.7.0_75\include\win32" /I"C:\Program Files\Java\jdk1.7.0_75\lib" /I"C:\Program Files\Java\jdk1.7.0_75\jre\bin\server" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /TP /errorReport:prompt "C:\Users\Женя\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Debug\app.res" app.rc 
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\JNI-test\x64\Debug\JNI-test.dll" /INCREMENTAL /NOLOGO "C:\Program Files\Java\jdk1.7.0_75\lib\jvm.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\JNI-test.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\JNI-test\x64\Debug\JNI-test.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 /DLL x64\Debug\app.res
+         x64\Debug\AssemblyInfo.obj
+         "x64\Debug\JNI-test.obj"
+         x64\Debug\stdafx.obj
+         "x64\Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library Z:\JNI-test\x64\Debug\JNI-test.lib and object Z:\JNI-test\x64\Debug\JNI-test.exp
+     1>JNI-test.obj : warning LNK4248: unresolved typeref token (01000010) for '_jmethodID'; image may not run
+         JNI-test.vcxproj -> Z:\JNI-test\x64\Debug\JNI-test.dll
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\JNI-test\x64\Debug\JNI-test.dll;#2" /manifest "x64\Debug\JNI-test.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\JNI-test.unsuccessfulbuild".
+         Touching "x64\Debug\JNI-test.lastbuildstate".
+     1>Done Building Project "Z:\JNI-test\JNI-test\JNI-test.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.09
